@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(pic.jpg) ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.heading{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    margin-top: 60px;
+}
+
+h1{
+    font-size: 3em;
+}
+
+h2{
+    font-size: 1em;
+    margin-top: 5px;
+}
+
+.content1{
+    width:600px;
+    
+}
+
+form{
+    background-color: rgba(241, 222, 215, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    height: 1000px;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 70px 50px 50px 50px;
+}
+
+form .box{
+    width: 98.5%;
+    height: 2.8em;
+    position: relative;
+    bottom: 10px;
+    border: 0;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+}
+
+input::placeholder{
+    font-size: 1.1em;
+    width: 500px;
+    font-weight: 500;  
+}
+
+
+label{
+    font-size: 20px;
+}
+
+#option1{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    border: 0;
+}
+select{
+    font-size: 1em;
+    width: 200px;
+    font-weight: 500;
+    padding: 5px;
+
+}
+
+button{
+    width: 98.5%;
+    height: 3em;
+    position: relative;
+    top:11px;
+    background-color: chocolate;
+    border: none;
+    color: rgba(255, 255, 2555);
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+textarea{
+    width: 600px;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 8px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.1em;
+}

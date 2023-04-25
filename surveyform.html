@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Preferences Survey</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="heading">
+        <h1>Your Travel Preferences</h1>
+        <h5>Thank you for taking the time to fill this form.</h5>
+    </div>
+    <form name="form" onsubmit="return fun()">
+        <div class="content1">
+            <label>Name:</label> <br><br>
+            <input type="name" name="name" id="name" placeholder="Enter your name" class="box"> <br><br>
+            <label>Email:</label> <br><br>
+            <input type="email" name="email" id="email" placeholder="Enter your Email" class="box"> <br><br>
+            <label>Age:</label> <br><br>
+            <input type="age" name="age" id="age" placeholder="Enter your Age" class="box"> <br><br>
+
+            <label>Travel Frequency:</label> <br> <br>
+            <input type="radio" class="larger">Not at all<br>
+            <input type="radio" class="larger">Sometimes<br>
+            <input type="radio" class="larger">Frquently<br><br>
+
+            <label>Travel Companion:</label> <br> <br>
+            <input type="radio" class="larger">Alone<br>
+            <input type="radio" class="larger">Family<br>
+            <input type="radio" class="larger">Friends<br><br><br>
+
+            <label>Would you want to travel more?</label> <br> <br>
+        
+            <div id="option1">
+                <select>
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                    <option value="no">Maybe</option>
+                </select>
+            </div> <br>
+            <label>Any travel suggestions?</label> <br><br>
+            <textarea name="suggestions" id="suggest" cols="10" rows="7" placeholder="Write your suggestions here."></textarea>
+            <button><h3>Submit</h3></button>
+        </div>
+    </form>
+    <script src=""></script>
+</body>
+</html>
